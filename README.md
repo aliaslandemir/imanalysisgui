@@ -50,40 +50,54 @@ imanalysisgui/
 ├── .gitignore               # Git ignore file
 ├── README.md                # This file
 └── requirements.txt         # Dependencies list
-Installation
-Clone the repository:
 
-bash
-Copy
+
+
+
+```markdown
+## Installation
+
+**Clone the repository:**
+
+```bash
 git clone https://github.com/<your-username>/imanalysisgui.git
 cd imanalysisgui
-Create a virtual environment (optional but recommended):
+```
 
-bash
-Copy
+**Create a virtual environment (optional but recommended):**
+
+```bash
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
-Install dependencies:
+```
 
-bash
-Copy
+**Install dependencies:**
+
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+## Usage
+
 Run the GUI by executing:
 
-bash
-Copy
+```bash
 python gui.py
+```
+
 Once launched, the GUI displays:
+- A central canvas for your image.
+- A histogram panel (on the right) showing RGB channel histograms.
+- Multiple docks (Filters, Geometry, Image Ops, Morphological) on different sides of the window. Use these to select operations, adjust their parameters, and apply them to your image.
 
-A central canvas for your image.
-A histogram panel (on the right) showing RGB channel histograms.
-Multiple docks (Filters, Geometry, Image Ops, Morphological) on different sides of the window. Use these to select operations, adjust their parameters, and apply them to your image.
-Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests. If you add new image processing functions, please update the FILTERS_MAP in src/utils.py so the new operations appear in the GUI.
+## Contributing
 
-License
+Contributions are welcome! Feel free to fork the repository and submit pull requests. If you add new image processing functions, please update the `FILTERS_MAP` in `src/utils.py` so the new operations appear in the GUI.
+
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
+```
