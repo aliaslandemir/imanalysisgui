@@ -95,7 +95,3 @@ Once launched, the GUI displays:
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests. If you add new image processing functions, please update the `FILTERS_MAP` in `src/utils.py` so the new operations appear in the GUI.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
