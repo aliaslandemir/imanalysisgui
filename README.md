@@ -1,5 +1,4 @@
 
-```markdown
 # imanalysisgui
 
 **Advanced Image Analysis GUI**
@@ -52,7 +51,7 @@ imanalysisgui/
 ├── .gitignore               # Git ignore file
 ├── README.md                # This file
 └── requirements.txt         # Dependencies list
-```
+
 
 ## Installation
 
