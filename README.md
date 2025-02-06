@@ -1,3 +1,5 @@
+
+```markdown
 # imanalysisgui
 
 **Advanced Image Analysis GUI**
@@ -35,7 +37,7 @@ Below is a screenshot of the GUI.
 
 ## Project Structure
 
-
+```plaintext
 imanalysisgui/
 ├── docs/
 │   └── screenshot.png       # Screenshot of the GUI
@@ -50,17 +52,14 @@ imanalysisgui/
 ├── .gitignore               # Git ignore file
 ├── README.md                # This file
 └── requirements.txt         # Dependencies list
+```
 
-
-
-
-```markdown
 ## Installation
 
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/<your-username>/imanalysisgui.git
+git clone https://github.com/aliaslandemir/imanalysisgui.git
 cd imanalysisgui
 ```
 
@@ -99,5 +98,5 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
