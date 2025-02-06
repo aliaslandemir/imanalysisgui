@@ -29,13 +29,13 @@ imanalysisgui is an advanced, ImageJ‑style GUI built with PyQt6 and OpenCV for
 
 ## Screenshot
 
-Below is a screenshot of the GUI. Place your screenshot image (for example, `screenshot.png`) in the `docs` folder.
+Below is a screenshot of the GUI.
 
 ![Screenshot](docs/screenshot.png)
 
 ## Project Structure
 
-```plaintext
+
 imanalysisgui/
 ├── docs/
 │   └── screenshot.png       # Screenshot of the GUI
